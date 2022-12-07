@@ -25,7 +25,7 @@ class App extends Component{
     handleKeyUp=(e)=>{
         console.log(e);
         //만약 enter key를 누른다면
-        if(e.keyCode==13){
+        if(e.keyCode===13){
             let msg = e.target.value;
             //아래와 같이 배열에 아이템을 추가한다고 해서 UI가 update되지 않는다.
             //this.state.msgs.push(<li>msg</li>);
