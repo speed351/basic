@@ -1,0 +1,19 @@
+/* css/custom.module.css */
+
+.text-red{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+.text-yellow{
+    color: yellow;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-big{
+    font-size: 2rem;;
+}
