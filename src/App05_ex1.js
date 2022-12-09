@@ -56,7 +56,7 @@ class App extends Component{
         //상태값에 반영한다. 
         this.setState({isChecked:isChecked});
     }
-
+ 
     //select 요소가 change 되었을때 호출되는 함수 
     onColorChange=(e)=>{
         //이벤트가 일어난 요소의 value 값을 읽어온다. 
